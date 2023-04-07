@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Raleway:ital,wght@0,400;0,700;1,100;1,500&display=swap');
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* font-family: 'Open Sans', sans-serif;
+     font-family: 'Raleway', sans-serif;*/
+
+/* QUISE APLICAR COMO FONDO DE PANTALLA UNA IMAGEN QUE QUEDE BASTANTE TRANSPARENTE
+Y QUE LAS IMAGENES DE ARRIBA QUEDARAN NORMALES PERO NO LO LOGRÉ y PONER COLORES ARRIBA DE LA 
+IMAGEN PERO NO ME LOS TOMA (PREGUNTAR COMO SE HACE)*/
+
+/* No agregué los iconos de redes, contacto, top y registrate porque no se como hacerlo y ademas
+no sé si se ma va a superponer con las demas imágenes */
+
+header{
+    background-image: url(../assets/img/selva.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 400;
+    font-weight: 700;
+    color: beige;
+}
+
+.logo {
+    font-family:'Raleway', sans-serif;
+    font-size: 300;
+    font-weight: 500;
+    color: beige;
+}
+
+.color-inicio{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 400;
+    font-weight: 400;
+    color: beige;
+}
+
+.color-inicio-dos a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 400;
+    font-weight: 400;
+    color: beige;
+}
+
+.color-elementos a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 400;
+    font-weight: 400;
+    color: beige;
+}
+
+     /*fin de barra superior */
+
+body{
+    background-image: url(../assets/img/selva.jpg);  
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.imagenes-carrusel h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 100;
+    font-weight: 100;
+    color: beige;
+}
+
+.imagenes-principales div h2 a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 100;
+    font-weight: 400;
+    color: beige;
+}
+
+.titulo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 100;
+    font-weight: 100;
+    color: rgb(209, 206, 19);
+}
+
+.Descripcion{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: beige;
+}
+
+.cuidados{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: beige;
+}
+
+.formulario{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100;
+    font-weight: 300;
+    color: beige; 
+}
+
+/* fin de main */
+
+.redes-contacto div h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100;
+    font-weight: 300;
+    color: beige;
+}
+
+.redes-contacto div a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100;
+    font-weight: 300;
+    color: rgb(13, 202, 202);
+}
+
+.direccion div ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100;
+    font-weight: 300;
+    color: beige;
+}
+footer{
+    background-image: url(../assets/img/selva.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+
+
+
+
+
