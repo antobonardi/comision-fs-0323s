@@ -15,124 +15,161 @@ IMAGEN PERO NO ME LOS TOMA (PREGUNTAR COMO SE HACE)*/
 /* No agregué los iconos de redes, contacto, top y registrate porque no se como hacerlo y ademas
 no sé si se ma va a superponer con las demas imágenes */
 
-header{
-    background-image: url(../assets/img/selva.jpg);  
+
+html{
+    font-size: 62.5%;
+}
+
+.body-index{
+    background-image: url(../assets/img/fondo-80.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+    /* background-size: cover; si lo aplico me corta la imagen en el footer; estimo es por el tamaño de
+    la misma*/
     
 }
 
 h1{
     font-family: 'Raleway', sans-serif;
-    font-size: 400;
+    font-size: 25px;
     font-weight: 700;
     color: beige;
+    text-shadow: 5px -5px 2px gray;
+}
+
+.imagen img {
+height: 120x;
+width: 120px;
 }
 
 .logo {
     font-family:'Raleway', sans-serif;
-    font-size: 300;
+    font-size: 17px;
     font-weight: 500;
     color: beige;
 }
 
 .color-inicio{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 400;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
     font-weight: 400;
     color: beige;
 }
 
 .color-inicio-dos a{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 400;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
     font-weight: 400;
     color: beige;
 }
 
-.color-elementos a{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 400;
-    font-weight: 400;
-    color: beige;
-}
 
      /*fin de barra superior */
 
-body{
-    background-image: url(../assets/img/selva.jpg);  
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-}
 
 .imagenes-carrusel h2{
     font-family: 'Raleway', sans-serif;
-    font-size: 100;
-    font-weight: 100;
+    font-size: 20px;
+    font-weight: 400;
     color: beige;
+}
+
+.carrusel img{
+ width: 100%;
+ height: 40vh;
+ 
 }
 
 .imagenes-principales div h2 a{
     font-family: 'Raleway', sans-serif;
-    font-size: 100;
+    font-size: 20px;
+    font-weight: 400;
+    color: beige;
+}
+.imagenes-principales img{
+    width: 40%;
+    height: 40vh;
+}
+
+.color-elementos a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: beige;
+}
+
+.elementos a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
     font-weight: 400;
     color: beige;
 }
 
 .titulo{
     font-family: 'Raleway', sans-serif;
-    font-size: 100;
+    font-size: 20px;
     font-weight: 100;
     color: rgb(209, 206, 19);
 }
 
 .Descripcion{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
     color: beige;
 }
 
 .cuidados{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
     color: beige;
 }
 
-.formulario{
+ .formulario{
     font-family: 'Open Sans', sans-serif;
-    font-size: 100;
+    height: 100vh;
+    font-size: 15px;
     font-weight: 300;
     color: beige; 
+} 
+/* En registrate me queda una parte del formulario que quisiera que quede abajo asi se lee completo. ej: 
+contraseña: y el recuadro al lado no debajo como quedó 
+en Contactanos me pasa lo mismo con términos y condiciones*/
+
+.recuadro{
+    height: 10vh;
+}
+
+.flecha a img{
+    height: 20vh;
+    width: 90px;
 }
 
 /* fin de main */
 
+
 .redes-contacto div h3{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 100;
-    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
     color: beige;
 }
 
 .redes-contacto div a{
     font-family: 'Open Sans', sans-serif;
-    font-size: 100;
+    font-size: 20px;
     font-weight: 300;
     color: rgb(13, 202, 202);
 }
 
 .direccion div ul li {
     font-family: 'Open Sans', sans-serif;
-    font-size: 100;
+    font-size: 20px;
     font-weight: 300;
     color: beige;
-}
-footer{
-    background-image: url(../assets/img/selva.jpg);  
-    background-repeat: no-repeat;
-    background-size: cover;   
 }
 
 

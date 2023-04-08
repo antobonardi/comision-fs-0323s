@@ -10,33 +10,35 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body class="body-index">
 
     <header id="inicio">
 
-        <section>
-            <div>
-                <nav>
-                    <img src="./assets/img/logo magnolia.png" alt="Logo Magnolia" title="Logo Magnolia">
-                    <h1>Magnolia:</h1>
-                    <h4 class="logo">vida, plantas y algo más</h4>
+        <div class="imagen">
+            <nav>
+                <img src="./assets/img/logo-redondo.png" alt="Logo Magnolia" title="Logo Magnolia">
+                <h1><em>Magnolia:</em></h1>
+                <h4 class="logo"><em>vida, plantas y algo más</em></h4>
 
-                    <ul>
-                        <li class="color-inicio">Incio</li>
-                        <li class="color-elementos"><a href="./pages/contacto.html">Contáctanos</a>
-                        <li class="color-elementos"><a href="./pages/quienes-somos.html">¿Quiénes somos?</a></li>
-                        <li class="color-elementos"><a href="./pages/mis-compras.html">Mis compras</a></li>
-                        <li class="color-elementos"><a href="./pages/registrate.html">Regístrate</a></li>
+                <ul>
+                    <li class="color-inicio">Incio</li>
+                    <li class="color-elementos"><a href="./pages/contacto.html">Contáctanos</a>
+                    <li class="color-elementos"><a href="./pages/quienes-somos.html">¿Quiénes somos?</a></li>
+                    <li class="color-elementos"><a href="./pages/mis-compras.html">Mis compras</a></li>
+                    <li class="color-elementos"><a href="./pages/registrate.html">Regístrate</a></li>
 
-                    </ul>
+                </ul>
+
+            </nav>
+        </div>
 
     </header>
 
     <main>
 
         <section class="imagenes-carrusel">
-            <div>
-                <img src="./assets/img/plantacion.jpg" alt="foto carrusel">
+            <div class="carrusel">
+                <img src="./assets/img/deco-2.jpg" alt="foto carrusel">
                 <h2>Deco & Accesorios</h2>
                 <!--h2 va sobre la imagen; la imagen es en carrusel, van a ir más imágenes con distintos textos (al estilo publicidad) sobre la misma-->
             </div>
@@ -60,6 +62,30 @@
             </div>
         </section>
 
+        <section>
+            <div>
+                <ul>
+                    <li>
+                        <h2 class="elementos"><a href="./pages/productos-para-el-jardin.html"><strong><em>Productos para el jardín</strong></em></a></h2>
+                    </li>
+                    <li>
+                        <h2 class="elementos"><a href="./pages/formas-de-pago.html"><strong><em>Formas de pago</strong></em></a></h2>
+                    </li>
+                    <li>
+                        <h2 class="elementos"><a href="./pages/proyectos-de-reforestacion.html"><strong><em>Proyecto de reforestación</strong></em></a></h2>
+                    </li>
+                </ul>
+             
+            </div>
+        </section>
+               
+        <section>
+            <div class="flecha">
+                <a href="#"><img src="./assets/img/flecha-arriba.png" alt=""></a>
+            </div>
+        </section>
+                
+
     </main>
 
     <footer>
@@ -71,31 +97,12 @@
                 <a href="https://www.facebook.com/" target="_blank">Facebook</a>
                 <a href="https://www.instagram.com/" target="_blank">Instagram</a>
 
-                <h3>Contacto:</h3>
+                <h3><strong>Contacto:</strong></h3>
                 <a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a>
 
             </div>
         </section>
 
-        <section>
-            <div>
-                <ul>
-                    <li>
-                        <h3 class="color-elementos"><a href="./pages/productos-para-el-jardin.html">Productos para el jardín</a></h3>
-                    </li>
-                    <li>
-                        <h3 class="color-elementos"><a href="./pages/formas-de-pago.html">Formas de pago</a></h3>
-                    </li>
-                    <li>
-                        <h3 class="color-elementos"><a href="./pages/proyectos-de-reforestacion.html">Proyecto de reforestación</a></h3>
-                    </li>
-                </ul>
-                <!--Cada título llevará a otra sección-->
-
-                <a href="#inicio">subir a inicio</a> <!--Esteticamente va a ser un botón con una flechita-->
-            </div>
-        </section>
-        
         <section class="direccion">
             <div>
                 <ul>
@@ -104,11 +111,11 @@
             </div>
         </section>
 
-         <iframe
-             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3006.3244294568376!2d-71.20694438481294!3d-41.10560513720276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7d9cd80696f3%3A0x1071b0d122b120eb!2sRN40%202049%2C%20San%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1680830779750!5m2!1ses-419!2sar"
-             width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-             referrerpolicy="no-referrer-when-downgrade"></iframe>
-            
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3006.3244294568376!2d-71.20694438481294!3d-41.10560513720276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7d9cd80696f3%3A0x1071b0d122b120eb!2sRN40%202049%2C%20San%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1680830779750!5m2!1ses-419!2sar"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     </footer>
 </body>
 
