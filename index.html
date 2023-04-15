@@ -12,20 +12,21 @@
 
 <body class="body-index">
 
-    <header id="inicio">
+    <header class="barra" id="inicio">
 
         <div class="imagen">
             <nav>
                 <img src="./assets/img/logo-redondo.png" alt="Logo Magnolia" title="Logo Magnolia">
                 <h1><em>Magnolia:</em></h1>
-                <h4 class="logo"><em>vida, plantas y algo más</em></h4>
+                <h3 class="logo"><em>vida, plantas y algo más</em></h3>
 
-                <ul>
-                    <li class="color-inicio">Incio</li>
-                    <li class="color-elementos"><a href="./pages/contacto.html">Contáctanos</a>
-                    <li class="color-elementos"><a href="./pages/quienes-somos.html">¿Quiénes somos?</a></li>
-                    <li class="color-elementos"><a href="./pages/mis-compras.html">Mis compras</a></li>
-                    <li class="color-elementos"><a href="./pages/registrate.html">Regístrate</a></li>
+                <ul class="navbar">
+
+                    <li><a href=""><em>Inicio</em></a></li>
+                    <li><a href="./pages/contacto.html"><em>Contáctanos</em></a></li>
+                    <li><a href="./pages/quienes-somos.html"><em>¿Quiénes somos?</em></a></li>
+                    <li><a href="./pages/mis-compras.html"><em>Compras</em></a></li>
+                    <li><a href="./pages/registrate.html"><em>Regístrate</em></a></li>
 
                 </ul>
 
@@ -36,26 +37,30 @@
 
     <main>
 
-        <section class="imagenes-carrusel">
+        <section>
             <div class="carrusel">
-                <img src="./assets/img/deco-2.jpg" alt="foto carrusel">
+                <img src="./assets/img/deco-2.jpg" alt="foto carrusel">     
                 <h2>Deco & Accesorios</h2>
                 <!--h2 va sobre la imagen; la imagen es en carrusel, van a ir más imágenes con distintos textos (al estilo publicidad) sobre la misma-->
             </div>
         </section>
 
+        <div class="icono">
+            <img src="./assets/img/mas.png">
+        </div>
+
         <section class="imagenes-principales">
-            <div>
-                <h2><strong><em><a href="./pages/plantas-de-exterior.html">Plantas de Exterior</a></em></strong></h2>
+            <div class="position">
+                <h2 class="plantas-e"><strong><em><a href="./pages/plantas-de-exterior.html">Plantas de Exterior</a></em></strong></h2>
                 <img src="./assets/img/plantas-exterior.jpg" alt="plantas de exterior">
 
-                <h2><strong><em><a href="./pages/plantas-de-interior.html">Plantas de Interior</a></em></strong></h2>
-                <img src="./assets/img/plantas-interior.jpg" alt="plantas de iterior">
+                <h2 class="plantas-i"><strong><em><a href="./pages/plantas-de-interior.html">Plantas de Interior</a></em></strong></h2>
+                <img src="./assets/img/plantas-interior.jpg" alt="plantas de interior">
 
-                <h2><strong><em><a href="./pages/plantines-de-huerta.html">Plantines de huerta</a></em></strong></h2>
+                <h2 class="huerta"><strong><em><a href="./pages/plantines-de-huerta.html">Plantines de huerta</a></em></strong></h2>
                 <img src="./assets/img/plantas-aromaticas.jpg" alt="plantines de huerta">
 
-                <h2><strong><em><a href="./pages/cactus-y-suculentas.html">Cactus y Suculentas</a></em></strong></h2>
+                <h2 class="cactus"><strong><em><a href="./pages/cactus-y-suculentas.html">Cactus y Suculentas</a></em></strong></h2>
                 <img src="./assets/img/cactus-suculentas.jpg" alt="cactus y suculentas">
 
                 <!--Los textos van sobre las imágenes y cada uno llevará a un catálogo (preguntar ¿cómo se hace?)-->
@@ -66,13 +71,13 @@
             <div>
                 <ul>
                     <li>
-                        <h2 class="elementos"><a href="./pages/productos-para-el-jardin.html"><strong><em>Productos para el jardín</strong></em></a></h2>
+                        <h2 class="elementos-uno"><a href="./pages/productos-para-el-jardin.html"><img src="./assets/img/jardin.png" alt=""><strong>Productos para el jardín</strong></a></h2>
                     </li>
                     <li>
-                        <h2 class="elementos"><a href="./pages/formas-de-pago.html"><strong><em>Formas de pago</strong></em></a></h2>
+                        <h2 class="elementos-dos"><a href="./pages/formas-de-pago.html"><img src="./assets/img/tarjeta-de-credito.png" alt=""><strong>Formas de pago</strong></a></h2>
                     </li>
                     <li>
-                        <h2 class="elementos"><a href="./pages/proyectos-de-reforestacion.html"><strong><em>Proyecto de reforestación</strong></em></a></h2>
+                        <h2 class="elementos-tres"><a href="./pages/proyectos-de-reforestacion.html"><img src="./assets/img/planta.png" alt=""><strong>Proyecto de reforestación</strong></a></h2>
                     </li>
                 </ul>
              
@@ -81,41 +86,44 @@
                
         <section>
             <div class="flecha">
-                <a href="#"><img src="./assets/img/flecha-arriba.png" alt=""></a>
+                
+                <a href="#"><img src="./assets/img/flecha-hacia-arriba-dos.png" alt=""></a>
+            
             </div>
         </section>
                 
 
     </main>
 
-    <footer>
+    <footer class="pie">
 
         <section class="redes-contacto">
             <div>
 
                 <h3><strong>Nuestras redes:</strong></h3>
-                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="./assets/img/logo-facebook.png" title=""></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="./assets/img/ig-logo.png" title=""></a>
 
                 <h3><strong>Contacto:</strong></h3>
-                <a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a>
-
+                <a href="https://web.whatsapp.com/" target="_blank"><img src="./assets/img/logo-whatsapp.png" title=""></a>
+                <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-1006569865%3A1681312496898776&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=AQMjQ7QLRb39yxBmZj6WZ9m2c1TfmcnSrzyB2pYHmDJrnBoIrHmMJjHM2XqX2AITi5pk15nCm0ZJHw&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank"><img src="./assets/img/logo-gmail.png" title=""></a>
             </div>
         </section>
 
         <section class="direccion">
             <div>
                 <ul>
-                    <li>Ubicación: RN 40 - N° 2049</li>
+                    <li><strong>Ubicación: RN 40 - N° 2049</strong></li>
                 </ul>
-            </div>
-        </section>
-
-        <iframe
+         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3006.3244294568376!2d-71.20694438481294!3d-41.10560513720276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7d9cd80696f3%3A0x1071b0d122b120eb!2sRN40%202049%2C%20San%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1680830779750!5m2!1ses-419!2sar"
             width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
+         
+            </div>
+        </section>
 
+        
     </footer>
 </body>
 
