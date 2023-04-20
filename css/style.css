@@ -9,76 +9,112 @@
      font-family: 'Raleway', sans-serif;*/
 
 
-html{
+ html{
     font-size: 62.5%;
-}
+} 
 
-.barra{
+header{
     background-image: linear-gradient(to left, #bfd1ecbb, #8caebc3a, #6a8a8991, #52655a88, #3d413460);
     /* background-color: rgba(128, 128, 128, 0.24); */
-    /* width: 99%; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
-h1{
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    margin: auto 2rem auto 32px;
+}
+
+.imagen{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.imagen h2{
     font-family: 'Raleway', sans-serif;
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 500;
     color: beige;
     text-shadow: 2px -2px 1px gray;
+    gap: 5px;  
+    padding-right: 10px;
+    justify-content: flex-end;
 }
 
 .imagen img {
 width: 150px;
 border: 2px solid rgb(5, 100, 104);
 border-radius: 50%;
+display: flex;
 }
 
-.logo {
-    font-family:'Raleway', sans-serif;
-    font-size: 17px;
-    font-weight: 500;
-    color: beige;
+.items{
+   display: flex;
+   margin-left: auto;
+   list-style: none;
+   gap: 1.875rem;
+   justify-content: flex-end;
+   align-items: flex-end;
 }
 
-.navbar li{
+.items-barra a{
+    display: flex;
+    justify-content: flex-end;  
+    align-items: flex-end;
+}
+
+/* NO PUEDO CORRER LOS ELEMENTOS DE LA BARRA MAS A LA DERECHA POR MAS QUE LE PONGA A LA ETIQUETA PADRE
+Y A LA MISMA ETIQUETA LI EL DISPLAY  FLEX Y FLEX END */
+
+.items li a{
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 400;
-    padding: 10px;
     list-style: none;
-    color: beige;
-    
-}
-
-.navbar li a{
     text-decoration: none;
     color: beige;
-    border: 3px outset rgba(0, 0, 0, 0.658); 
+    border: 3px outset rgba(0, 0, 0, 0.658);
     border-radius: 10px;
-    background-image: linear-gradient(to right top, #051937, #111e4d, #2a2061, #481b70, #6a057a);
+    /* background-image: linear-gradient(to right top, #051937, #111e4d, #2a2061, #481b70, #6a057a); */
+    background-color: #898021b7;
     box-shadow: -20px -5px 10px gray;
-} 
+    padding: 2px 5px;
+}
 
-/* CONSULTAR SI HAY QUE GENERAR UNA CLASE A CADA ELEMENTO PARA UBICARLOS O HAY OTRA HERRAMIENTA */
+
   /*fin de barra superior */
 
      .body-index{
         background-image: url(../assets/img/fondo-80.png);
         background-repeat: no-repeat;
         height: 100vh;
-        width: 100%;
+        /* width: 100%; */
      } 
-        /* background-size: cover; si lo aplico me corta la imagen en el footer; estimo es por el tamaño de
-        la misma*/
-        
+    
+.carrusel{
+    width: 100%;
+    height: 15%;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
 .carrusel img{
-width: 98%;
+width: 100%;
 height: 40vh;
-padding: 5px;
 border: 1px solid black;
-background-color: gray;
-margin: 2px;
-position: relative;
+overflow: hidden;
+object-fit: cover;
+display: flex;
+}
+
+.carrusel img{
+    object-fit: cover;
+    margin-right: 20px;
+    align-self: flex-end;
 }
 
 .carrusel h2{
@@ -94,34 +130,43 @@ position: relative;
     padding: 2px;
     position: absolute;
     z-index: 2;
-    top: 94%;
+    top: 40%;
     left: 37%;
 }
+
 .icono img{
     width: 40px;
     position: absolute;
     z-index: 2;
-    top: 115%;
-    left: 43%;
+    top: 50%;
+    left: 44%;
+ }
 
-     }
+.imagenes-principales{
+width: 100%;
+    
+}
 
+.position{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+}
 
 .imagenes-principales img{
     width: 40%;
     height: 40vh;
-    padding: 2px;
-    margin: 30px 30px 30px 30px;
     border: 2px solid  rgba(29, 194, 172, 0.096);
     border-radius: 15px;
     background-color: rgba(104, 112, 104, 0.308);
-    position: relative;
+    object-fit: cover;
+    overflow: hidden;  
 }
 
-.position h2{
-    padding: 10px;
-    position: absolute; 
-}
 
 .position h2 a{
     font-family: 'Raleway', sans-serif;
@@ -138,29 +183,92 @@ position: relative;
 .plantas-e{
     position:absolute;
     z-index: 2;
-    top: 140%;
-    left: 14%;
+    top: 83%;
+    left: 21%;
 }
 
 .plantas-i{
     position:absolute;
     z-index: 2;
-    top: 140%;
-    right: 24%;
+    top: 83%;
+    right: 21%;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.cards-products{
+    width: 300px;
+    height: 490px;
+    background-color: #A4BC92;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cards-products .texto h3{
+text-align: left;
+}
+
+.cards-products .texto p{
+    text-align: left;
+    font-size: 16px;
+    color: black;
+}
+
+.card-img{
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+}
+
+.card-img img{
+  overflow: hidden;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+} 
+
+.button{
+    background-color: #7C96AB;
+    color: black;
+    border-radius: 5px;
+    padding: 5px 3px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1opx;
+    font-weight: 500;
+    border: 1px solid black;
 }
 
 .huerta{
     position:absolute;
     z-index: 2;
-    top: 190%;
-    left: 13%; 
+    top: 127%;
+    left: 20%; 
 }
 
 .cactus{
     position:absolute;
     z-index: 2;
-    top: 190%;
-    right: 23%; 
+    top: 127%;
+    right: 20%; 
+}
+
+.elementos{
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    list-style: none;
+}
+
+.elementos h2{
+    justify-content: space-between;
 }
 
 .elementos-uno a{
@@ -172,18 +280,16 @@ position: relative;
     color: beige;
     border: 4px outset rgba(0, 0, 0, 0.658); 
     border-radius: 40px;
-    background-image: linear-gradient(to right top, #051937, #111e4d, #2a2061, #481b70, #6a057a);
-    box-shadow: -20px -5px 10px gray;
-    position: absolute;
-    left: 37%;
-    top: 225%;
+    background-color:  #470d21cc;
+    /* background-image: linear-gradient(to right top, #051937, #111e4d, #2a2061, #481b70, #6a057a); */
+    box-shadow: -20px -5px -1px gray;
+    text-align: center;
+    padding: 2px 5px;
 
 }
 .elementos-uno a img{
     width: 20px;
-    position: relative;
-    bottom: 20%;
-}
+} 
 
 .elementos-dos a{
     font-family: 'Raleway', sans-serif;
@@ -194,11 +300,11 @@ position: relative;
     color: beige;
     border: 4px outset rgba(0, 0, 0, 0.658); 
     border-radius: 40px;
-    background-image: linear-gradient(to right top, #051937, #111e4d, #2a2061, #481b70, #6a057a);
-    box-shadow: -20px -5px 10px gray;
-    position: absolute;
-    top: 225%;
-    left: 12%;
+    background-color: #470d21cc;
+    /* background-image: linear-gradient(to right top, #051937, #111e4d, #2a2061, #481b70, #6a057a); */
+    box-shadow: -20px -5px -1px gray;
+    text-align: center;
+    padding: 2px 5px;
 }
 .elementos-dos a img{
     width: 20px;
@@ -214,17 +320,15 @@ position: relative;
     color: beige;
     border: 4px outset rgba(0, 0, 0, 0.658); 
     border-radius: 40px;
-    background-image: linear-gradient(to right top, #051937, #111e4d, #2a2061, #481b70, #6a057a);
-    box-shadow: -20px -5px 10px gray;
-    position: absolute;
-    left: 65%;
-    top: 225%;
-
+    background-color: #470d21cc;
+    /* background-image: linear-gradient(to right top, #051937, #111e4d, #2a2061, #481b70, #6a057a); */
+    box-shadow: -20px -5px -1px gray;
+    text-align: center;
+    padding: 2px 5px;
 }
 .elementos-tres a img{
     width: 20px;
-    position: relative;
-    top: 20%;
+ 
 }
 
 .titulo{
@@ -271,10 +375,8 @@ en Contactanos me pasa lo mismo con términos y condiciones*/
     width: 50px;
     padding: 2px;
     position:absolute;
-    left: 44%;
+    left: 48%;
 }
-
-
 
 /* fin de main */
 

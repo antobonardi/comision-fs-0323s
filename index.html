@@ -12,26 +12,28 @@
 
 <body class="body-index">
 
-    <header class="barra" id="inicio">
+    <header id="inicio">
 
-        <div class="imagen">
-            <nav>
+            <nav class="navbar">
+
+            <div class="imagen">
+
                 <img src="./assets/img/logo-redondo.png" alt="Logo Magnolia" title="Logo Magnolia">
-                <h1><em>Magnolia:</em></h1>
-                <h3 class="logo"><em>vida, plantas y algo más</em></h3>
-
-                <ul class="navbar">
-
-                    <li><a href=""><em>Inicio</em></a></li>
-                    <li><a href="./pages/contacto.html"><em>Contáctanos</em></a></li>
-                    <li><a href="./pages/quienes-somos.html"><em>¿Quiénes somos?</em></a></li>
-                    <li><a href="./pages/mis-compras.html"><em>Compras</em></a></li>
-                    <li><a href="./pages/registrate.html"><em>Regístrate</em></a></li>
-
+               <h2><em>Magnolia: vida, plantas y algo más</em></h2>      
+            
+            </div> 
+              
+               <div>
+                <ul class="items">
+                    <li class="items-barra"><a href=""><em>Inicio</em></a></li>
+                    <li class="items-barra"><a href="./pages/contacto.html"><em>Contáctanos</em></a></li>
+                    <li class="items-barra"><a href="./pages/quienes-somos.html"><em>¿Quiénes somos?</em></a></li>
+                    <li class="items-barra"><a href="./pages/mis-compras.html"><em>Compras</em></a></li>
+                    <li class="items-barra"><a href="./pages/registrate.html"><em>Regístrate</em></a></li>
                 </ul>
-
+            </div>
             </nav>
-        </div>
+       
 
     </header>
 
@@ -39,7 +41,7 @@
 
         <section>
             <div class="carrusel">
-                <img src="./assets/img/deco-2.jpg" alt="foto carrusel">     
+                <div class="carrusel-img"><img src="./assets/img/deco-2.jpg" alt="foto carrusel"></div>     
                 <h2>Deco & Accesorios</h2>
                 <!--h2 va sobre la imagen; la imagen es en carrusel, van a ir más imágenes con distintos textos (al estilo publicidad) sobre la misma-->
             </div>
@@ -50,18 +52,19 @@
         </div>
 
         <section class="imagenes-principales">
+            
             <div class="position">
                 <h2 class="plantas-e"><strong><em><a href="./pages/plantas-de-exterior.html">Plantas de Exterior</a></em></strong></h2>
-                <img src="./assets/img/plantas-exterior.jpg" alt="plantas de exterior">
+                <img class="position-img" src="./assets/img/plantas-exterior.jpg" alt="plantas de exterior">
 
                 <h2 class="plantas-i"><strong><em><a href="./pages/plantas-de-interior.html">Plantas de Interior</a></em></strong></h2>
-                <img src="./assets/img/plantas-interior.jpg" alt="plantas de interior">
+                <img class="position-img" src="./assets/img/plantas-interior.jpg" alt="plantas de interior">
 
                 <h2 class="huerta"><strong><em><a href="./pages/plantines-de-huerta.html">Plantines de huerta</a></em></strong></h2>
-                <img src="./assets/img/plantas-aromaticas.jpg" alt="plantines de huerta">
+                <img class="position-img" src="./assets/img/plantas-aromaticas.jpg" alt="plantines de huerta">
 
                 <h2 class="cactus"><strong><em><a href="./pages/cactus-y-suculentas.html">Cactus y Suculentas</a></em></strong></h2>
-                <img src="./assets/img/cactus-suculentas.jpg" alt="cactus y suculentas">
+                <img class="position-img" src="./assets/img/cactus-suculentas.jpg" alt="cactus y suculentas">
 
                 <!--Los textos van sobre las imágenes y cada uno llevará a un catálogo (preguntar ¿cómo se hace?)-->
             </div>
@@ -69,7 +72,7 @@
 
         <section>
             <div>
-                <ul>
+                <ul class="elementos">
                     <li>
                         <h2 class="elementos-uno"><a href="./pages/productos-para-el-jardin.html"><img src="./assets/img/jardin.png" alt=""><strong>Productos para el jardín</strong></a></h2>
                     </li>
