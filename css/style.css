@@ -25,6 +25,7 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items:center;
+    align-content: center;
     margin: auto 2rem auto 32px;
 }
 
@@ -59,12 +60,14 @@ display: flex;
    gap: 1.875rem;
    justify-content: flex-end;
    align-items: flex-end;
+   align-content: center;
 }
 
 .items-barra a{
     display: flex;
     justify-content: flex-end;  
     align-items: flex-end;
+    align-content: center;
 }
 
 /* NO PUEDO CORRER LOS ELEMENTOS DE LA BARRA MAS A LA DERECHA POR MAS QUE LE PONGA A LA ETIQUETA PADRE
@@ -179,14 +182,35 @@ width: 100%;
     background-color: rgba(7, 100, 88, 0.877);
     box-shadow: -20px -5px 20px gray;
 }
-    
+   /* PLANTAS DE EXTERIOR */ 
 .plantas-e{
     position:absolute;
     z-index: 2;
     top: 83%;
     left: 21%;
 }
+.titulo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(209, 206, 19);
+}
 
+.Descripcion{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    color: beige;
+}
+
+.cuidados{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    color: beige;
+}
+
+/* PLANTAS DE INTERIOR */
 .plantas-i{
     position:absolute;
     z-index: 2;
@@ -196,28 +220,41 @@ width: 100%;
 .cards{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding-top: 10px;
 }
 
 .cards-products{
     width: 300px;
-    height: 490px;
-    background-color: #A4BC92;
+    height: 423px;
+    background-color: rgba(0, 0, 0, 0.781);
     border-radius: 10px;
     box-shadow: 5px 5px 5px grey;
     overflow: hidden;
     text-align: center;
 }
 
-.cards-products .texto h3{
-text-align: left;
+.cards-products .texto h2{
+color: white;
+font-size: 18px;
 }
 
 .cards-products .texto p{
     text-align: left;
     font-size: 16px;
-    color: black;
+    color: white; 
+}
+
+.cards-products .color{
+    text-align: left;
+    font-size: 16px; 
+    color: #7AA874;
+    text-decoration: underline;
+}
+
+.texto .link {
+    color: rgba(59, 128, 231, 0.781);
 }
 
 .card-img{
@@ -236,20 +273,45 @@ text-align: left;
 .button{
     background-color: #7C96AB;
     color: black;
-    border-radius: 5px;
-    padding: 5px 3px;
+    border-radius: 7px;
+    padding: 4px 3px;
     font-family: 'Raleway', sans-serif;
-    font-size: 1opx;
-    font-weight: 500;
-    border: 1px solid black;
+    font-size: 12px;
+    font-weight: 500 bold; 
 }
 
+.button:hover{
+    background-color:black;
+    color: #7C96AB;
+}
+
+.flecha-siguiente a img{
+    width: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    position:absolute;
+    top: 60%;
+    left: 97%;    
+}
+
+.flecha-atras a img{
+    width: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    position:absolute;
+    top: 60%;
+    right: 97%; 
+}
+
+ /* PLANTAS DE HUERTA */
 .huerta{
     position:absolute;
     z-index: 2;
     top: 127%;
     left: 20%; 
 }
+
+ /* CACTUS Y SUCULENTAS */
 
 .cactus{
     position:absolute;
@@ -329,27 +391,6 @@ text-align: left;
 .elementos-tres a img{
     width: 20px;
  
-}
-
-.titulo{
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    font-weight: 100;
-    color: rgb(209, 206, 19);
-}
-
-.Descripcion{
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 100;
-    color: beige;
-}
-
-.cuidados{
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 100;
-    color: beige;
 }
 
  .formulario{
