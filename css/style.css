@@ -9,9 +9,9 @@
      font-family: 'Raleway', sans-serif;*/
 
 
- html{
+ /* html{
     font-size: 62.5%;
-} 
+}  */
 
 header{
     background-image: linear-gradient(to left, #bfd1ecbb, #8caebc3a, #6a8a8991, #52655a88, #3d413460);
@@ -26,7 +26,7 @@ header{
     justify-content: flex-end;
     align-items:center;
     align-content: center;
-    margin: auto 2rem auto 32px;
+    margin: auto 2rem auto 2rem;
 }
 
 .imagen{
@@ -37,17 +37,17 @@ header{
 }
 .imagen h2{
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    font-size: .9375rem;
     font-weight: 500;
     color: beige;
-    text-shadow: 2px -2px 1px gray;
-    gap: 5px;  
-    padding-right: 10px;
+    text-shadow: .125rem -0.125rem .0625rem gray;
+    gap: .3125rem;  
+    padding-right: .625rem;
     justify-content: flex-end;
 }
 
 .imagen img {
-width: 150px;
+width: 9.375rem;
 border: 2px solid rgb(5, 100, 104);
 border-radius: 50%;
 display: flex;
@@ -75,7 +75,7 @@ Y A LA MISMA ETIQUETA LI EL DISPLAY  FLEX Y FLEX END */
 
 .items li a{
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     list-style: none;
     text-decoration: none;
@@ -84,8 +84,8 @@ Y A LA MISMA ETIQUETA LI EL DISPLAY  FLEX Y FLEX END */
     border-radius: 10px;
     /* background-image: linear-gradient(to right top, #051937, #111e4d, #2a2061, #481b70, #6a057a); */
     background-color: #898021b7;
-    box-shadow: -20px -5px 10px gray;
-    padding: 2px 5px;
+    box-shadow: -1.25rem -0.3125rem .625rem gray;
+    padding: .125rem .3125rem;
 }
 
 
@@ -95,7 +95,7 @@ Y A LA MISMA ETIQUETA LI EL DISPLAY  FLEX Y FLEX END */
         background-image: url(../assets/img/fondo-80.png);
         background-repeat: no-repeat;
         height: 100vh;
-        /* width: 100%; */
+        width: 100%;
      } 
     
 .carrusel{
@@ -108,7 +108,7 @@ Y A LA MISMA ETIQUETA LI EL DISPLAY  FLEX Y FLEX END */
 .carrusel img{
 width: 100%;
 height: 40vh;
-border: 1px solid black;
+border: .0625rem solid black;
 overflow: hidden;
 object-fit: cover;
 display: flex;
@@ -116,21 +116,21 @@ display: flex;
 
 .carrusel img{
     object-fit: cover;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     align-self: flex-end;
 }
 
 .carrusel h2{
     width: 17%;
     font-family: 'Raleway', sans-serif;
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 400;
     color: beige;
-    border: 4px outset rgba(0, 0, 0, 0.658); 
+    border: .25rem outset rgba(0, 0, 0, 0.658); 
     border-radius: 40px;
     background-color: rgba(0, 0, 0, 0.877);
-    box-shadow: -20px -5px 20px gray;
-    padding: 2px;
+    box-shadow: -1.25rem -0.3125rem 1.25rem gray;
+    padding: .125rem;
     position: absolute;
     z-index: 2;
     top: 40%;
@@ -138,7 +138,7 @@ display: flex;
 }
 
 .icono img{
-    width: 40px;
+    width: 2.5rem;
     position: absolute;
     z-index: 2;
     top: 50%;
@@ -151,20 +151,19 @@ width: 100%;
 }
 
 .position{
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
-    padding-top: 20px;
+    gap: 1.25rem;
+    padding-top: 1.25rem;
 }
 
 .imagenes-principales img{
     width: 40%;
     height: 40vh;
-    border: 2px solid  rgba(29, 194, 172, 0.096);
-    border-radius: 15px;
+    border: .125rem solid  rgba(29, 194, 172, 0.096);
+    border-radius: .9375rem;
     background-color: rgba(104, 112, 104, 0.308);
     object-fit: cover;
     overflow: hidden;  
@@ -173,48 +172,32 @@ width: 100%;
 
 .position h2 a{
     font-family: 'Raleway', sans-serif;
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 400;
     color: beige;
     text-decoration: none;
-    border: 4px outset rgba(0, 0, 0, 0.658); 
+    border: .25rem outset rgba(0, 0, 0, 0.658); 
     border-radius: 40px;
     background-color: rgba(7, 100, 88, 0.877);
-    box-shadow: -20px -5px 20px gray;
+    box-shadow: -1.25rem -0.3125rem 1.25rem gray;
 }
    /* PLANTAS DE EXTERIOR */ 
 .plantas-e{
+    display: flex;
+    flex-wrap: wrap;
     position:absolute;
     z-index: 2;
-    top: 83%;
+    top: 85%;
     left: 21%;
-}
-.titulo{
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    font-weight: 100;
-    color: rgb(209, 206, 19);
-}
-
-.Descripcion{
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 100;
-    color: beige;
-}
-
-.cuidados{
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    font-weight: 100;
-    color: beige;
 }
 
 /* PLANTAS DE INTERIOR */
 .plantas-i{
+    display: flex;
+    flex-wrap: wrap;
     position:absolute;
     z-index: 2;
-    top: 83%;
+    top: 85%;
     right: 21%;
 }
 .cards{
@@ -222,33 +205,33 @@ width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-top: 10px;
+    padding-top: .625rem;
 }
 
 .cards-products{
-    width: 300px;
-    height: 423px;
+    width: 18.75rem;
+    height: 26.4375rem;
     background-color: rgba(0, 0, 0, 0.781);
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px grey;
+    border-radius: .625rem;
+    box-shadow: .3125rem .3125rem .3125rem grey;
     overflow: hidden;
     text-align: center;
 }
 
 .cards-products .texto h2{
 color: white;
-font-size: 18px;
+font-size: 1.125rem;
 }
 
 .cards-products .texto p{
     text-align: left;
-    font-size: 16px;
+    font-size: 1rem;
     color: white; 
 }
 
 .cards-products .color{
     text-align: left;
-    font-size: 16px; 
+    font-size: 1rem; 
     color: #7AA874;
     text-decoration: underline;
 }
@@ -259,8 +242,8 @@ font-size: 18px;
 
 .card-img{
     overflow: hidden;
-    width: 300px;
-    height: 200px;
+    width: 18.75rem;
+    height: 12.5rem;
 }
 
 .card-img img{
@@ -273,10 +256,10 @@ font-size: 18px;
 .button{
     background-color: #7C96AB;
     color: black;
-    border-radius: 7px;
-    padding: 4px 3px;
+    border-radius: .4375rem;
+    padding: .25rem .1875rem;
     font-family: 'Raleway', sans-serif;
-    font-size: 12px;
+    font-size: .75rem;
     font-weight: 500 bold; 
 }
 
@@ -286,7 +269,7 @@ font-size: 18px;
 }
 
 .flecha-siguiente a img{
-    width: 30px;
+    width: 1.875rem;
     display: flex;
     flex-wrap: nowrap;
     position:absolute;
@@ -295,7 +278,7 @@ font-size: 18px;
 }
 
 .flecha-atras a img{
-    width: 30px;
+    width: 1.875rem;
     display: flex;
     flex-wrap: nowrap;
     position:absolute;
@@ -305,18 +288,22 @@ font-size: 18px;
 
  /* PLANTAS DE HUERTA */
 .huerta{
+    display: flex;
+    flex-wrap: wrap;
     position:absolute;
     z-index: 2;
-    top: 127%;
-    left: 20%; 
+    top: 130%;
+    left: 21%; 
 }
 
  /* CACTUS Y SUCULENTAS */
 
 .cactus{
+    display: flex;
+    flex-wrap: wrap;
     position:absolute;
     z-index: 2;
-    top: 127%;
+    top: 130%;
     right: 20%; 
 }
 
@@ -325,7 +312,7 @@ font-size: 18px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 3.75rem;
     list-style: none;
 }
 
@@ -335,72 +322,72 @@ font-size: 18px;
 
 .elementos-uno a{
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     text-decoration: none;
     list-style: none;
     color: beige;
-    border: 4px outset rgba(0, 0, 0, 0.658); 
-    border-radius: 40px;
+    border: .25rem outset rgba(0, 0, 0, 0.658); 
+    border-radius: 2.5rem;
     background-color:  #470d21cc;
     /* background-image: linear-gradient(to right top, #051937, #111e4d, #2a2061, #481b70, #6a057a); */
-    box-shadow: -20px -5px -1px gray;
+    box-shadow: -1.25rem -0.3125rem -0.0625rem gray;
     text-align: center;
-    padding: 2px 5px;
+    padding: .125rem .3125rem;
 
 }
 .elementos-uno a img{
-    width: 20px;
+    width: 1.25rem;
 } 
 
 .elementos-dos a{
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     text-decoration: none;
     list-style: none;
     color: beige;
-    border: 4px outset rgba(0, 0, 0, 0.658); 
-    border-radius: 40px;
+    border: .25rem outset rgba(0, 0, 0, 0.658); 
+    border-radius: 2.5rem;
     background-color: #470d21cc;
     /* background-image: linear-gradient(to right top, #051937, #111e4d, #2a2061, #481b70, #6a057a); */
-    box-shadow: -20px -5px -1px gray;
+    box-shadow: -1.25rem -0.3125rem -0.0625rem gray;
     text-align: center;
-    padding: 2px 5px;
+    padding: .125rem .3125rem;
 }
 .elementos-dos a img{
-    width: 20px;
+    width: 1.25rem;
   
 }
 
 .elementos-tres a{
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
     text-decoration: none;
     list-style: none;
     color: beige;
-    border: 4px outset rgba(0, 0, 0, 0.658); 
-    border-radius: 40px;
+    border: .25rem outset rgba(0, 0, 0, 0.658); 
+    border-radius: 2.5rem;
     background-color: #470d21cc;
     /* background-image: linear-gradient(to right top, #051937, #111e4d, #2a2061, #481b70, #6a057a); */
-    box-shadow: -20px -5px -1px gray;
+    box-shadow: -1.25rem -0.3125rem -0.0625rem gray;
     text-align: center;
-    padding: 2px 5px;
+    padding: .125rem .3125rem;
 }
 .elementos-tres a img{
-    width: 20px;
+    width: 1.25rem;
  
 }
 
  .formulario{
     font-family: 'Open Sans', sans-serif;
     height: 100vh;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 300;
     color: black; 
     background-color: aliceblue;
-    border: 2px solid rgb(17, 32, 9);
+    border: .125rem solid rgb(17, 32, 9);
 } 
 /* En registrate me queda una parte del formulario que quisiera que quede abajo asi se lee completo. ej: 
 contraseña: y el recuadro al lado no debajo como quedó 
@@ -408,49 +395,259 @@ en Contactanos me pasa lo mismo con términos y condiciones*/
 
 .recuadro{
     height: 15vh;
-    border: 2px solid rgb(17, 32, 9);
+    border: .125rem solid rgb(17, 32, 9);
 
 }
 
 .flecha a img{
-    width: 50px;
-    padding: 2px;
-    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 3.125rem;
+    padding: .125rem;
+    position:relative;
     left: 48%;
 }
+/* PROYECTO REFORESTACIÓN */
+
+.container-clima{
+    display: flex;
+    flex-flow: wrap;
+    padding-top: .625rem;
+} 
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 27.5rem;
+    height: 18.75rem;
+    background-color: rgba(0, 0, 0, 0.781);
+    border-radius: .625rem;
+    box-shadow: .3125rem .3125rem .3125rem black;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.container-img{
+    display: flex;
+    overflow: hidden;
+    width: 27.5rem;
+    height: 10.75rem;
+    background-color: #FEFCF3;
+    justify-content: center;
+   
+}
+.container-img img{
+    overflow: hidden;
+    object-fit: contain; 
+}
+
+.container-texto{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 1.875rem;
+    background-color:rgba(19, 13, 13, 0.952);
+    text-align: center;
+    justify-content: center;
+    column-gap: 1.875rem;
+    } 
+
+    .container-texto{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-left: 1.25rem;
+    }
+
+    .container-descripcion{
+        display: flex; 
+        flex-wrap: wrap;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        font-size: 1.25rem;
+        text-align: center;
+        justify-content: flex-end;
+        margin-top: 1.125rem;
+        padding-right: 1.125rem;
+    }
+
+.container-texto2{
+        display: flex;
+        flex-wrap: wrap;
+        color: white;
+        width: 7.25rem;
+        justify-content: center;
+        text-align: center;
+        background-color: #472637;  
+        }    
+        
+    .container-texto2 h4{
+        font-family: 'Raleway', sans-serif;
+        font-size: 1rem;
+        font-weight: 100;
+        padding-top: 1.875rem;
+    } 
 
 /* fin de main */
 
 .pie{
-    background-image: linear-gradient(to left, #bfd1ecbb, #8caebc3a, #6a8a8991, #52655a88, #3d413460);
+    /* background-image: linear-gradient(to left, #bfd1ecbb, #8caebc3a, #6a8a8991, #52655a88, #3d413460); */
+    width: 100%;
+    background-color: #c2b95741;
 }
 
-.redes-contacto div h3{
+.redes-contacto h3{
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 1.25rem;
+    font-weight: 100;
     color: beige;
+    text-decoration: underline;
 }
 
-.redes-contacto div a{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    color: rgb(13, 202, 202);
+.redes-contacto a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 100;
+    
 }
 
-.redes-contacto div img{
-width: 40px;
+.redes-contacto img{
+ width: 2.5rem;
 }
 
-.direccion div ul li {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
+
+.grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 18.75rem);
+    grid-template-areas: 
+    "breve-texto   direccion"
+    "redes contacto  "
+    ;
+}
+
+.breve-texto{
+grid-row: 1;
+grid-area: breve-texto;
+color: white;
+font-family: 'Raleway', sans-serif;
+font-size: 1.25rem;
+font-weight: 400;
+background-color:#91871dc7;
+}
+
+.redes-contacto{
+    display: grid;
+    grid-template-areas: 
+    "breve-texto   direccion"
+    "redes contacto  "
+    ;
+    grid-row-start: 2;
+    align-items: end;
+    gap: 1.25rem;
+    background-color:  #c2b95741;
+}
+
+.redes-contacto .redes h3 a{
+    grid-area: redes;
+}
+
+.redes-contacto .contacto h3 a{
+    grid-area: contactos;
+  
+}
+
+.direccion{
+    display: grid;
+    grid-area: direccion;
+    justify-content: center;
+}
+
+.direccion ul li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 100;
     color: beige;
+    list-style: none;
+    text-decoration:underline;
+   
 }
 
+@media(max-width:1024px){
+    .cactus{
+        top: 123%;
+        right: 16%;
+    }
+    .huerta{
+        top: 123%;
+        right: 10%;
+    }
 
+    .plantas-e{
+        top: 81%;
+        right: 18%;
 
+    }
 
+    .plantas-i{
+        top: 81%;
+        right: 18%;
+    }
+    .carrusel h2{
+        top: 35%;
+        left: 42%;
+        text-align: center;
+        margin: .125rem;
+        padding: .0625rem;
+}
+}
 
+@media(max-width:768px){
+
+.breve-texto{
+    overflow: auto;
+}
+
+.direccion iframe{
+  width: 21.875rem; 
+}
+}
+
+@media(max-width:425px){
+    
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 18.75rem);
+        grid-template-areas: 
+        "direccion"
+        "contacto "
+        "breve-texto"
+        ;
+    }
+}
+@media(max-width:320px){
+    
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 18.75rem);
+        grid-template-areas: 
+        "direccion"
+        "contacto"
+        "breve-texto"
+        ;
+    }
+
+    .direccion iframe{
+        width: 18.75rem; 
+        overflow: auto;
+      }
+
+      .breve-texto{
+        font-size: 1.5625rem;
+      }
+
+      .redes-contacto h3{
+       font-size: 1.5625rem; 
+       }
+}
